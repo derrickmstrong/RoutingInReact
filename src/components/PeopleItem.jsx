@@ -24,10 +24,10 @@ export class PeopleItem extends Component {
           <div className='card-header'>Studio Ghibli</div>
           <div className='card-body'>
             <h5 className='card-title'>{this.state.people.name}</h5>
-            <p className='card-text'>{this.state.people.gender}</p>
             <p className='card-text'>{this.state.people.age}</p>
-            <p className='card-text'>{this.state.people.eye_color}</p>
-            <p className='card-text'>{this.state.people.hair_color}</p>
+            <p className='card-text'>Gender: {this.state.people.gender}</p>
+            <p className='card-text'>Eye Color: {this.state.people.eye_color}</p>
+            <p className='card-text'>Hair Color: {this.state.people.hair_color}</p>
             <a href={this.state.people.url} className='btn btn-primary mx-1'>
               Go to Endpoint
             </a>
