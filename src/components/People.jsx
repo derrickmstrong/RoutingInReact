@@ -28,7 +28,7 @@ export class People extends Component {
                 <h5 className='card-title'>{ppl.name}</h5>
                 <p className='card-text'>{ppl.age}</p>
                 <Link to={`/people/${ppl.id}`} className='btn btn-primary'>
-                  Show Item
+                  See More
                 </Link>
               </div>
             </div>

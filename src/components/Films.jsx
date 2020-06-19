@@ -27,7 +27,7 @@ export class Films extends Component {
               <h5 className='card-title'>{film.title}</h5>
               <p className='card-text'>{film.description}</p>
               <Link to={`/films/${film.id}`} className='btn btn-primary'>
-                Show Item
+                See More
               </Link>
             </div>
           </div>
