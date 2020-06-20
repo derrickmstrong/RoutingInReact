@@ -11,14 +11,14 @@ function App() {
     <Router>
       <div className='container'>
         <div className='d-flex justify-content-around my-3'>
-          <Link to='/'>
-            <button className='btn btn-primary'>Go Home</button>
+          <Link to='/' className='btn btn-primary'>
+            Go Home
           </Link>
-          <Link to='/films'>
-            <button className='btn btn-primary'>View Films</button>
+          <Link to='/films' className='btn btn-primary'>
+            View Films
           </Link>
-          <Link to='/people'>
-            <button className='btn btn-primary'>View People</button>
+          <Link to='/people' className='btn btn-primary'>
+            View People
           </Link>
         </div>
         <Switch>
